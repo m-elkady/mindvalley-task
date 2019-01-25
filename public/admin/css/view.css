@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://use.fontawesome.com/releases/v5.0.12/css/all.css";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+td a::after {
+    display:block;
+    content:" ";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+td
+{
+    position:relative;
+    z-index:0;
+}
+a{
+    display: block;
+}
+#doublerow {
+    padding-bottom: 20px;
+}
+#no-padding td{
+    padding: 0 !important;
+    margin: 0 !important;
+}
